@@ -71,7 +71,7 @@
   --it-grey-1: #F3F8F6;
   --it-grey-2: #fff4ef;
   --it-text-body: #6B6F6A;
-  --it-theme-1: #11BB67;
+  --it-theme-1: #1fb7c2;
   --it-theme-2: #FF6525;
 }
 
@@ -464,7 +464,7 @@ input[type=color] {
   background-color: var(--it-theme-2);
 }
 .it-btn-blog.featured-btn {
-  background: rgba(76, 160, 41, 0.4);
+  background: rgba(31, 183, 194, 0.4);
 }
 .it-btn-blog.featured-btn-black {
   color: var(--it-theme-1);
@@ -1405,7 +1405,8 @@ input[type=color] {
 }
 @media (max-width: 767px) {
   .itoffcanvas {
-    width: 300px;
+    width: 100%;
+    /* width: 300px; */
     padding: 40px 35px;
   }
 }
@@ -1431,7 +1432,7 @@ input[type=color] {
   }
 }
 .itoffcanvas__logo img {
-  width: 157px;
+  width: 50px;
   height: 100%;
 }
 .itoffcanvas__close-btn button {
@@ -1939,7 +1940,7 @@ input[type=color] {
   margin-right: 15px;
   display: inline-block;
   color: var(--it-theme-1);
-  background: rgba(76, 160, 41, 0.2);
+  background: rgba(31, 183, 194, 0.2);
   border-radius: 5px;
 }
 @media (max-width: 767px) {
@@ -8052,7 +8053,7 @@ body.it-magic-cursor #magic-cursor {
 }
 .it-portfolio-filter .masonary-menu button {
   padding: 12px 20px;
-  background: rgba(76, 160, 41, 0.2);
+  background: rgba(31, 183, 194, 0.2);
   margin-left: 15px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8142,7 +8143,7 @@ body.it-magic-cursor #magic-cursor {
   font-size: 16px;
   font-weight: 400;
   color: var(--it-theme-1);
-  background: rgba(76, 160, 41, 0.2);
+  background: rgba(31, 183, 194, 0.2);
   border-radius: 5px;
 }
 .it-events-title {
@@ -8222,7 +8223,7 @@ body.it-magic-cursor #magic-cursor {
   color: var(--it-theme-1);
   border-radius: 5px;
   margin-right: 8px;
-  background: rgba(76, 160, 41, 0.2);
+  background: rgba(31, 183, 194, 0.2);
   transition: 0.3s;
 }
 @media (max-width: 767px) {
@@ -9245,7 +9246,7 @@ p.checkout-coupon input[type=text]:focus {
   font-size: 16px;
   padding: 15px;
   color: var(--it-theme-1);
-  background: rgba(76, 160, 41, 0.2);
+  background: rgba(31, 183, 194, 0.2);
   border-radius: 5px;
   margin-right: 10px;
   display: inline-block;
@@ -10892,4 +10893,15 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--it-theme-1);
 }
 
-/*# sourceMappingURL=style.css.map */
+.it-main-logo img {
+  width: 70px;
+}
+
+.it-footer-logo {
+  width: 100px;
+}
+
+.it-footer-area .container {
+  position: relative;
+  z-index: 10;
+}
